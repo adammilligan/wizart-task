@@ -1,34 +1,47 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Демонстрационная версия продукта «1С-Битрикс: Управление сайтом»");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Форма обратной связи");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Главная страница");
 ?>
 
-<p>Продукт <b>1C-Битрикс: Управление сайтом</b> - технологическое ядро для создания и управления сайтами, экономичный способ разработки, поддержки и развития интернет-проекта.</p>
-<p>Программный продукт <b>1C-Битрикс: Управление сайтом</b> может быть использован как корпоративными заказчиками, так и индивидуальными разработчиками в качестве фундамента для создания новых проектов, а также как инструмент для управления уже существующими сайтами.</p>
+    <div class="form-wrapper">
+        <h1>Форма обратной связи</h1>
+        <div class="form-field">
+            <span class="form-field-title">Имя</span>
+            <div class="ui-ctl ui-ctl-textbox ui-ctl-w100">
+                <input type="text" class="ui-ctl-element" placeholder="">
+            </div>
+        </div>
+        <div class="form-field"><span class="form-field-title">Фамилия</span>
+            <div class="ui-ctl ui-ctl-textbox ui-ctl-w100">
+                <input type="text" class="ui-ctl-element" placeholder="">
+            </div>
+        </div>
+        <div class="form-field"><span class="form-field-title">Email</span>
+            <div class="ui-ctl ui-ctl-textbox ui-ctl-w100">
+                <input type="email" class="ui-ctl-element" placeholder="">
+            </div>
+        </div>
+        <div class="form-field"><span class="form-field-title">Дата рождения</span>
+            <div class="ui-ctl ui-ctl-textbox ui-ctl-w100">
+                <input type="date" class="ui-ctl-element" value="">
+            </div>
+        </div>
+        <div class="form-field"><span class="form-field-title">Номер телефона</span>
+            <div class="ui-ctl ui-ctl-textbox ui-ctl-w100">
+                <input type="tel" class="ui-ctl-element" value="">
+            </div>
+        </div>
+        <div class="form-field"><span class="form-field-title">Город</span>
+            <div class="ui-ctl ui-ctl-textbox ui-ctl-w100">
+                <input type="text" class="ui-ctl-element" placeholder="">
+            </div>
+        </div>
 
-<p> <b>1C-Битрикс: Управление сайтом</b> позволяет создавать неограниченное количество сайтов с применением одной
-копии (лицензии) продукта, размещая ядро и базу данных системы в единственном экземпляре на сервере.</p>
-<p>Также программный продукт <b>1C-Битрикс: Управление сайтом</b> позволяет:</p>
 
-<ul>
-	<li>
-
-управлять структурой и содержанием сайта;</li>
-
-	<li>публиковать новости, пресс-релизы и другую часто обновляемую информацию;</li>
-	<li>управлять показом рекламы на сайте;</li>
-	<li>создавать форумы;</li>
-	<li>отправлять рассылки группам подписчиков;</li>
-	<li>вести учет статистики посещений;</li>
-	<li>контролировать ход рекламных кампаний;</li>
-
-	<li>осуществлять
-другие операции по управлению интернет-проектом.</li>
-</ul>
-
-<p>Продукт позволяет&nbsp; минимизировать расходы на сопровождение веб-сайта за счет простоты управления статической и динамической информацией. Для управления сайтом вам не потребуются дополнительные услуги специалистов в области веб-дизайна. С помощью продукта управлять веб-сайтом сможет штатный сотрудник компании, обычный пользователь персонального компьютера без специальных навыков программирования и HTML-вёрстки.</p>
+        <button class="ui-btn ui-btn-success ui-ctl-w100">Кнопка</button>
+    </div>
 
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

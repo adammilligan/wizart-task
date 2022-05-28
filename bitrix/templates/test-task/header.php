@@ -24,10 +24,21 @@ if (!\Bitrix\Main\Loader::includeModule('landing'))
 	$APPLICATION->ShowHead();
 	$APPLICATION->ShowProperty('MetaOG');
 	$APPLICATION->ShowProperty('BeforeHeadClose');
-	?>
+
+    \Bitrix\Main\UI\Extension::load("ui.forms");
+    \Bitrix\Main\UI\Extension::load("ui.buttons");
+    ?>
+
+    <link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/assets/css/reset.css" />
+
+    <link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/assets/css/style.css" />
+
 </head>
 <body class="<?$APPLICATION->ShowProperty('BodyClass');?>" <?$APPLICATION->ShowProperty('BodyTag');?>>
- <h1>HELLLO</h1>
+
+
+
+
 <?
 /*
 This is commented to avoid Project Quality Control warning
@@ -36,4 +47,4 @@ $APPLICATION->ShowPanel();
 ?>
 <?$APPLICATION->ShowProperty('Noscript');?>
 <?$APPLICATION->ShowProperty('AfterBodyOpen');?>
-<main class="w-100 <?$APPLICATION->ShowProperty('MainClass');?>" <?$APPLICATION->ShowProperty('MainTag');?>>
+<main class="main <?$APPLICATION->ShowProperty('MainClass');?>" <?$APPLICATION->ShowProperty('MainTag');?>>
