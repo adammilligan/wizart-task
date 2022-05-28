@@ -91,3 +91,6 @@ bower_components
 
 # и логи xhprof напоследок
 /xhprof/logs
+
+
+bitrix/managed_cache/
