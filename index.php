@@ -40,7 +40,7 @@ $APPLICATION->SetTitle("Главная страница");
         </div>
 
 
-        <button class="ui-btn ui-btn-success ui-ctl-w100">Кнопка</button>
+        <button class="ui-btn ui-ctl-w100">Кнопка</button>
     </div>
 
 

@@ -11,17 +11,21 @@ body {
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     font-size: 36px;
     margin-bottom: 30px;
 }
-.form-field{
+
+.form-field {
     margin-bottom: 15px;
 }
-.form-field-title{
+
+.form-field-title {
     display: block;
     margin-bottom: 15px;
 }
+
 .form-wrapper {
     background-color: #ffffff;
     padding-left: 128px;
@@ -29,13 +33,19 @@ h1{
     padding-bottom: 323px;
     padding-right: 128px;
 }
-input{
+
+input {
     width: 350px;
     height: 40px;
     border-radius: 3px;
 }
-.ui-btn-success {
+
+.ui-btn {
     background-color: #4ED27B;
     border-radius: 3px;
     color: #ffffff;
+}
+
+.ui-btn:hover {
+    background-color: #4ED27B;
 }
