@@ -1,1 +1,0 @@
-<?php $filesInfo = ["/bitrix/js/ui/actionpanel/css/style.css" => "16537453616125",]; ?>
