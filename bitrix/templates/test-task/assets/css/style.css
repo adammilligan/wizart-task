@@ -49,3 +49,9 @@ input {
 .ui-btn:hover {
     background-color: #4ED27B;
 }
+
+
+.form-field .ui-ctl {
+    flex-direction: row;
+    align-items: center;
+}

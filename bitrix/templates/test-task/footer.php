@@ -31,6 +31,8 @@ $APPLICATION->ShowProperty('FooterJS');
 	}
 </script>
 <?endif;?>
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/assets/js/main.js"></script>
 
 </body>
 </html>
